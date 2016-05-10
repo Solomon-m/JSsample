@@ -7,7 +7,7 @@
 
             console.log("Request Reached server::");
             console.log("Res :"); 
-           // dosomething(req,res);
+            dosomething(req,res);
             res.writeHead(200, {
                 'Access-Control-Allow-Origin': '*'
             });
@@ -31,6 +31,11 @@
         console.error("Exception stack:", e.stack);
     }
 })();
+
+function dosomething(req,res){
+        console.log("Req::",req);
+        console.log("Res::",res);
+}
 
 // var serverPort = {
 //     PortNumber: null,
