@@ -5,8 +5,7 @@
 
         var server = http.createServer(function(req, res) {  // Creates http server. 
 
-            console.log("Request Reached server::");
-            console.log("Res :"); 
+            console.log("Request Reached server::"); 
             dosomething(req,res);
             res.writeHead(200, {
                 'Access-Control-Allow-Origin': '*'
