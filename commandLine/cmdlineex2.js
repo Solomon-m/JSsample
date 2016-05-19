@@ -4,7 +4,8 @@ function parseArgs() {
 baz: false };
 
   for (var i = 0, len = argv.length; i < len; i++) {
-    var arg = argv[i];
+       console.log("test log");
+     var arg = argv[i];
     var match;
     if (arg === "-foo") {
       args.foo = parseInt(argv[++i]);
