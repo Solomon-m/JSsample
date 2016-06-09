@@ -1,0 +1,110 @@
+Core Java:
+
+- Environment path variable
+- Local variables & pass by value
+- Unary operators.
+- Basics on methods in Java.
+- Static variable Management(Forward Reference Issue).
+- Memory Management- Heap/Stack.
+- Static Initialization Block (SIB).
+- Using Static memebers in different classes.
+- Class and Object
+- Constructor Overloading, Understanding first statement of constructor. 
+- Instance Initilalization  Block (IIB).
+- Mixing Static, Non-Static Members & Analyzing Constructor, SIB and IIB.
+- Inheritance. 
+- Constructor Chain.
+- Analyzing Constructor chain,SIB,IIB in the hierarchical classes.
+- Packages.
+- Access Levels.
+- Abstract classes.
+- Method Overloading & Overriding.
+- Difference between constructors and methods.
+- Auto widening, Explict narrowing.
+- Auto up casting and Explict down Casting.
+- Polymorphism. 
+- Final keyword.
+- Creating jar file.
+- classpath.
+- javap, javadoc.
+- Enums.
+- Static Imports
+- Inner classes 
+- Annotations
+- ANT 
+- Basic of Eclispe
+- For loop and Enhanced for loop 
+- Wrapper classes
+- Auto Boxing
+- var args
+- Combinations of widening, Boxing var args
+- Command Line Arguments
+- Scanner class
+- Exception Handling
+- Assertions
+
+- Threads:
+  - Threads Basics
+  - Synchronizations
+  - Dead lock 
+  - Inter Thread Communication 
+  - Thread Pool
+  - Thread group 
+  - Thread Local
+  - Thread Lifecycle
+
+- Object Class:
+  - toString method
+  - equals method
+  - hashcode method
+  - clone method 
+  - shallow/deep copy 
+  - Reflection API
+
+- Strings:
+  - Strings Basics
+  - Usage of String methods
+  - StringBuilder & StringBuffer
+  - Patterns & Matchers(Regular Experssions)
+  - Formatters
+  - Date and Calender,Numberformat, DateFormat, Locale
+
+- Arrays:
+  - One Dimensional Arrays
+  - Multi Dimensional Arrays
+  - Java.util.Arrays
+  - Comparable
+  - Comparator
+
+- Collection API:
+  - Collection diagram
+  - List Stream 
+  - Developing Our own ArrayList 
+  - Developing LinkedList(Single,Double,circular)
+  - Developing stack & queue
+  - Collections class
+  - Set Stream
+  - Set uniqueness
+  - TreeSet, NavigableSet
+  - Queue Stream
+  - PriorityQueue
+  - Map Stream
+  - Uniqueness in Map 
+  - HashMap & HashTable
+  - Developing oru own ThreadLocale
+  - TreeMap & NavigableMap 
+
+- Generics
+
+- File Handling:
+  - File
+  - Readers and Writer
+  - Streams
+  - Serialization
+  - Externalization 
+  - Java.io.console
+  - Customizing s.o.p
+
+
+
+
