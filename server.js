@@ -1,12 +1,12 @@
-(function() {
-    try {
+// (function() {
+   // try {
         var http = require('http');
-        var portfinder = require('portfinder');
+       // var portfinder = require('portfinder');
 
         var server = http.createServer(function(req, res) {//Creates http server. 
 
-            console.log("Request Reached server::"); 
-            dosomething(req,res);
+            console.log("Request Reached server at 3000 ::",req); 
+            //dosomething(req,res);
             res.writeHead(200, {
                 'Access-Control-Allow-Origin': '*'
             });
@@ -14,22 +14,22 @@
             res.end('I am returing some response..!');
         });
 
-        portfinder.getPort(function(err, port) {  // getting port number for listening to server. 
-            console.log("port is:", port);
-            server.listen(port, function(err, info) {  // here, we are listening to server
-                console.log("Server listening at :", port);
+        // portfinder.getPort(function(err, port) {  // getting port number for listening to server. 
+        //     console.log("port is:", port);
+            server.listen(3000, function(err, info) {  // here, we are listening to server
+                console.log("Server listening at :", 3000);
                 if (err)
                     console.warn("Error in server")
 
             });
 
-        }.bind(this));
+      //  }.bind(this));
 
-    } catch (e) {
-        console.error("Exception in Server.js:", e);
-        console.error("Exception stack:", e.stack);
-    }
-})();
+//     } catch (e) {
+//         console.error("Exception in Server.js:", e);
+//         console.error("Exception stack:", e.stack);
+//     }
+// })();
 
 function dosomething(req,res){
         console.log("Req::",req);
